@@ -1,46 +1,64 @@
-**🍴 Foodlok**
+<div align="center">
 
-Aplikasi untuk menemukan tempat makan paling murah di sekitarmu.
+# 🍴 **Foodlok**
 
-**✨ Fitur**
+<img src="https://img.shields.io/badge/Glassmorphism-Style-blueviolet?style=for-the-badge" />
 
-Cari tempat makan murah
+<br/><br/>
 
-Lokasi terbaru
+<div style="
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  width: 80%;
+">
 
-Filter kategori
+## ✨ Fitur
+<div align="left">
 
-Pencarian cepat
+- Cari tempat makan murah  
+- Lokasi terbaru  
+- Filter kategori  
+- Pencarian cepat  
+- Peta interaktif  
+- Profil pengguna  
+- CRUD lokasi  
 
-Peta interaktif
+</div>
 
-Profil pengguna
+</div>
 
-CRUD lokasi
+<br/>
 
-**🧩 Teknologi**
+<div style="
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  width: 80%;
+">
 
-React Native • Firebase • Firestore • ESRI Basemap
+## 🧩 Teknologi
+**React Native • Firebase • Firestore • ESRI Basemap**
 
-**⚙️ Instalasi**
+</div>
+
+<br/>
+
+<div style="
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  width: 80%;
+">
+
+## ⚙️ Instalasi
+```bash
 git clone https://github.com/NandaAmaliaPutri/foodlok.git
 cd foodlok
 npm install
-
-**Jalankan**
-npx react-native run-android
-atau
-npx react-native run-ios
-
-**🤝 Kontribusi**
-
-Fork → Branch → Commit → Push → Pull Request
-
-**📄 Lisensi**
-
-MIT License
-
-**👤 Kontak**
-
-Nanda Amalia Putri
-🔗 LinkedIn: https://www.linkedin.com/in/nanda-amalia-putri-92048432b
