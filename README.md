@@ -18,8 +18,8 @@ Profil pengguna
 
 CRUD lokasi
 
-**🧩 Teknologi
-**
+**🧩 Teknologi**
+
 React Native • Firebase • Firestore • ESRI Basemap
 
 **⚙️ Instalasi**
