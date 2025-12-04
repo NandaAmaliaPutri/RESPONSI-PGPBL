@@ -1,50 +1,145 @@
-# Welcome to your Expo app 👋
+🍴 Foodlok: Temukan Tempat Makan Termurah di Dekatmu!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi mobile untuk membantu mahasiswa dan pengguna umum menemukan titik makanan murah di sekitar UGM secara cepat dan real-time.
 
-## Get started
+📌 Deskripsi Aplikasi
 
-1. Install dependencies
+Foodlok adalah aplikasi berbasis mobile yang digunakan untuk menampilkan titik-titik lokasi makanan murah di sekitar pengguna. Aplikasi ini memungkinkan pengguna menambah titik lokasi, menghapus, dan melihat informasi detail seperti nama tempat, harga, koordinat, serta menu yang dipesan. Foodlok dibuat untuk membantu mahasiswa kost—khususnya di sekitar UGM—dalam menemukan pilihan makan yang lebih ekonomis dan efisien.
 
-   ```bash
-   npm install
-   ```
+✨ Fitur Utama
 
-2. Start the app
+Berikut fitur yang tersedia di aplikasi:
 
-   ```bash
-   npx expo start
-   ```
+🔍 Pencarian Tempat Makan Terdekat
 
-In the output, you'll find options to open the app in a
+Menampilkan rekomendasi lokasi makanan murah berdasarkan area pengguna.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🕒 Daftar Lokasi Terbaru
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Menampilkan lokasi yang baru ditambahkan seperti:
 
-## Get a fresh project
+Bakpiaku – Jl. Kaliurang
 
-When you're ready, run:
+Preksu Pandega
 
-```bash
-npm run reset-project
-```
+Ayam Geprek Bu RT
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🗂 Filter kategori makanan
 
-## Learn more
+Dapat difilter berdasarkan:
+✔ Makanan
+✔ Minuman
+✔ Snack
 
-To learn more about developing your project with Expo, look at the following resources:
+🔎 Pencarian Cepat
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contoh pencarian "ayam" otomatis menampilkan:
+✔ Preksu Pandega
+✔ Warung Jurang
+✔ Ayam Geprek Bu RT
 
-## Join the community
+🗺 Peta Lokasi Interaktif
 
-Join our community of developers creating universal apps.
+Menggunakan tampilan ESRI Basemap
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Lokasi divisualisasikan dalam bentuk pin koordinat
+
+👤 Profil Pengguna
+
+Menampilkan profil:
+Nama: Nanda Amalia Putri
+Total lokasi yang ditambahkan
+
+🔧 Fitur CRUD Pada Lokasi
+➕ Tambah Lokasi Baru
+
+Input data meliputi:
+
+Foto tempat (optional)
+
+Nama lokasi
+
+Menu yang dibeli
+
+Harga
+
+Latitude & Longitude
+
+📄 Daftar Semua Lokasi
+
+Informasi yang ditampilkan:
+
+Nama
+
+Harga
+
+Koordinat
+
+Menu
+
+✏ Edit Lokasi
+🗑 Hapus Lokasi
+
+Semua data tersimpan di Firestore dan update secara real-time.
+
+⚙️ Teknologi yang Digunakan
+Komponen	Teknologi	Keterangan
+Frontend	React Native	Framework mobile multiplatform
+Backend & Auth	Firebase	Pengelola serverless BaaS
+Database	Firebase Firestore	Penyimpanan NoSQL berbasis dokumen
+Maps	ESRI Basemap	Menampilkan pin lokasi makanan
+Icon Assets	Flaticon	Sumber ikon UI aplikasi
+🚀 Instalasi & Cara Menjalankan
+
+Pastikan perangkat sudah terinstall:
+
+Node.js
+
+Android Studio atau emulator
+
+React Native CLI
+
+Clone Repository
+git clone https://github.com/USERNAME_ANDA/foodlok.git
+
+Masuk ke folder project
+cd foodlok
+
+Install dependencies
+npm install
+
+Jalankan Aplikasi Android
+npx react-native run-android
+
+Jalankan Aplikasi iOS
+npx react-native run-ios
+
+🤝 Kontribusi
+
+Kami membuka kontribusi dari siapa pun.
+
+Langkah kontribusi:
+
+# Fork repository
+# Buat branch baru
+git checkout -b feature/nama-fitur
+
+# Commit perubahan
+git commit -m "feat: menambahkan fitur baru"
+
+# Push branch ke repository
+git push origin feature/nama-fitur
+
+
+Buat pull request ✔
+
+📄 Lisensi
+
+Proyek ini dilisensikan di bawah MIT License
+Silakan lihat file LICENSE.md untuk detailnya.
+
+✉️ Kontak Pengembang
+
+👤 Nanda Amalia Putri
+🔗 LinkedIn:
+https://www.linkedin.com/in/nanda-amalia-putri-92048432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
