@@ -20,7 +20,7 @@ Foodlok hadir dengan serangkaian fitur yang memudahkan pengalaman mencari makan:
 
 ---
 
-## 🛠️ Tumpukan Teknologi
+## 🛠️ Teknologi
 
 Aplikasi ini dibangun menggunakan teknologi modern untuk memastikan kinerja yang cepat dan pengalaman pengguna yang mulus.
 
