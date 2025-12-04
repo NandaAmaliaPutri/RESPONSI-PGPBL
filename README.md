@@ -29,7 +29,7 @@ npm install
 
 **Jalankan**
 npx react-native run-android
-# atau
+atau
 npx react-native run-ios
 
 **🤝 Kontribusi**
