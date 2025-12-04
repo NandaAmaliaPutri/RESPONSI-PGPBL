@@ -1,54 +1,62 @@
-🍴 Foodlok
+<div align="center">
 
+# 🍴 **Foodlok**
 Aplikasi untuk menemukan tempat makan paling murah di sekitarmu.
 
-✨ Fitur
-📦 Card
+---
 
-Cari tempat makan murah
+### ✨ Fitur
+<div style="
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+">
+<div align="left">
 
-Lokasi terbaru
+- Cari tempat makan murah  
+- Lokasi terbaru  
+- Filter kategori  
+- Pencarian cepat  
+- Peta interaktif  
+- Profil pengguna  
+- CRUD lokasi  
 
-Filter kategori
+</div>
+</div>
 
-Pencarian cepat
+<br/>
 
-Peta interaktif
-
-Profil pengguna
-
-CRUD lokasi
-
-🧩 Teknologi
-📦 Card
-
+### 🧩 Teknologi
+<div style="
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+">
 React Native • Firebase • Firestore • ESRI Basemap
+</div>
 
-⚙️ Instalasi
-📦 Card
+<br/>
+
+### ⚙️ Instalasi
+<div style="
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+">
+  
+```bash
 git clone https://github.com/NandaAmaliaPutri/foodlok.git
 cd foodlok
 npm install
-
+</div> <br/>
 ▶️ Jalankan
-📦 Card
+<div style=" border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; width: 80%; ">
 npx react-native run-android
 # atau
 npx react-native run-ios
 
-🤝 Kontribusi
-📦 Card
+</div> <br/>
 
-Fork → Branch → Commit → Push → Pull Request
-
-📄 Lisensi
-📦 Card
-
-MIT License
-
-👤 Kontak
-📦 Card
-
-Nanda Amalia Putri
-🔗 LinkedIn:
-https://www.linkedin.com/in/nanda-amalia-putri-92048432
