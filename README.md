@@ -62,7 +62,7 @@ Pastikan Anda telah menginstal yang berikut:
 
 1.  **Kloning Repositori:**
     ```bash
-    git clone [https://github.com/USERNAME_ANDA/foodlok.git](https://github.com/USERNAME_ANDA/foodlok.git)
+    git clone [https://github.com/NandaAmaliaPutri/foodlok.git](https://github.com/NandaAmaliaPutri/foodlok.git)
     cd foodlok
     ```
 
@@ -113,9 +113,3 @@ Kontribusi disambut baik! Jika Anda memiliki ide atau ingin melaporkan *bug*, si
 Proyek ini dilisensikan di bawah Lisensi **MIT** - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ---
-
-## 📧 Kontak
-
-Nama Anda - [@handle_twitter_anda](https://twitter.com/handle_twitter_anda) atau [Email Anda](mailto:email@example.com)
-
-Link Proyek: [https://github.com/USERNAME_ANDA/foodlok](https://github.com/USERNAME_ANDA/foodlok)
