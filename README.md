@@ -59,6 +59,7 @@ npx react-native run-android
 npx react-native run-ios
 
 </div> <br/>
+
 🤝 Kontribusi
 <div style=" border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; width: 80%; "> Fork → Branch → Commit → Push → Pull Request </div> <br/>
 📄 Lisensi
