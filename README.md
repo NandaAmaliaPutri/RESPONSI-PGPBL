@@ -1,68 +1,54 @@
-<div align="center">
+🍴 Foodlok
 
-# 🍴 **Foodlok**
 Aplikasi untuk menemukan tempat makan paling murah di sekitarmu.
 
----
+✨ Fitur
+📦 Card
 
-### ✨ Fitur
-<div style="
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  padding: 20px;
-  width: 80%;
-">
-<div align="left">
+Cari tempat makan murah
 
-- Cari tempat makan murah  
-- Lokasi terbaru  
-- Filter kategori  
-- Pencarian cepat  
-- Peta interaktif  
-- Profil pengguna  
-- CRUD lokasi  
+Lokasi terbaru
 
-</div>
-</div>
+Filter kategori
 
-<br/>
+Pencarian cepat
 
-### 🧩 Teknologi
-<div style="
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  padding: 20px;
-  width: 80%;
-">
+Peta interaktif
+
+Profil pengguna
+
+CRUD lokasi
+
+🧩 Teknologi
+📦 Card
+
 React Native • Firebase • Firestore • ESRI Basemap
-</div>
 
-<br/>
-
-### ⚙️ Instalasi
-<div style="
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  padding: 20px;
-  width: 80%;
-">
-  
-```bash
+⚙️ Instalasi
+📦 Card
 git clone https://github.com/NandaAmaliaPutri/foodlok.git
 cd foodlok
 npm install
-</div> <br/>
+
 ▶️ Jalankan
-<div style=" border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; width: 80%; ">
+📦 Card
 npx react-native run-android
 # atau
 npx react-native run-ios
 
-</div> <br/>
-
 🤝 Kontribusi
-<div style=" border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; width: 80%; "> Fork → Branch → Commit → Push → Pull Request </div> <br/>
+📦 Card
+
+Fork → Branch → Commit → Push → Pull Request
+
 📄 Lisensi
-<div style=" border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; width: 80%; "> MIT License </div> <br/>
+📦 Card
+
+MIT License
+
 👤 Kontak
-<div style=" border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; width: 80%; "> <b>Nanda Amalia Putri</b><br/> 🔗 LinkedIn: https://www.linkedin.com/in/nanda-amalia-putri-92048432 </div> </div> ```
+📦 Card
+
+Nanda Amalia Putri
+🔗 LinkedIn:
+https://www.linkedin.com/in/nanda-amalia-putri-92048432
