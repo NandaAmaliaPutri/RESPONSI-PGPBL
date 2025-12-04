@@ -1,145 +1,103 @@
-🍴 Foodlok: Temukan Tempat Makan Termurah di Dekatmu!
+🍴 Foodlok – Temukan Tempat Makan Termurah di Sekitarmu!
 
-Aplikasi mobile untuk membantu mahasiswa dan pengguna umum menemukan titik makanan murah di sekitar UGM secara cepat dan real-time.
-
-📌 Deskripsi Aplikasi
-
-Foodlok adalah aplikasi berbasis mobile yang digunakan untuk menampilkan titik-titik lokasi makanan murah di sekitar pengguna. Aplikasi ini memungkinkan pengguna menambah titik lokasi, menghapus, dan melihat informasi detail seperti nama tempat, harga, koordinat, serta menu yang dipesan. Foodlok dibuat untuk membantu mahasiswa kost—khususnya di sekitar UGM—dalam menemukan pilihan makan yang lebih ekonomis dan efisien.
+Foodlok adalah aplikasi mobile yang membantu pengguna menemukan, menyimpan, dan melacak lokasi tempat makan murah di sekitar mereka. Dengan fokus pada harga dan lokasi, aplikasi ini mempermudah mahasiswa maupun masyarakat dalam mencari pilihan makan yang hemat dan dekat.
 
 ✨ Fitur Utama
+🔍 Pencarian Tempat Makan Termurah
 
-Berikut fitur yang tersedia di aplikasi:
+Menampilkan daftar pilihan tempat makan murah yang dapat dilihat berdasarkan lokasi pengguna.
 
-🔍 Pencarian Tempat Makan Terdekat
+🆕 Daftar Lokasi Terbaru
 
-Menampilkan rekomendasi lokasi makanan murah berdasarkan area pengguna.
+Menampilkan lokasi terbaru yang ditambahkan oleh pengguna lain.
 
-🕒 Daftar Lokasi Terbaru
+🎯 Filter Kategori
 
-Menampilkan lokasi yang baru ditambahkan seperti:
+Memfilter pilihan lokasi berdasarkan kategori seperti makanan, minuman, atau jajanan.
 
-Bakpiaku – Jl. Kaliurang
+📌 Pencarian Cepat
 
-Preksu Pandega
+Pengguna dapat mencari lokasi berdasarkan nama atau jenis makanan.
+Contoh: ketik ayam untuk menemukan tempat makan seperti ayam geprek.
 
-Ayam Geprek Bu RT
+🗺️ Peta Lokasi Interaktif
 
-🗂 Filter kategori makanan
+Menampilkan lokasi tempat makan dalam bentuk pin pada peta menggunakan ESRI Basemap.
 
-Dapat difilter berdasarkan:
-✔ Makanan
-✔ Minuman
-✔ Snack
+👤 Manajemen Profil Pengguna
 
-🔎 Pencarian Cepat
+Menampilkan profil pengguna lengkap dengan jumlah lokasi yang pernah ditambahkan.
 
-Contoh pencarian "ayam" otomatis menampilkan:
-✔ Preksu Pandega
-✔ Warung Jurang
-✔ Ayam Geprek Bu RT
+🛠️ CRUD Lokasi
 
-🗺 Peta Lokasi Interaktif
+Fitur pengelolaan data lokasi berupa:
 
-Menggunakan tampilan ESRI Basemap
+Menambahkan lokasi baru (nama, gambar, menu, harga, koordinat)
 
-Lokasi divisualisasikan dalam bentuk pin koordinat
+Melihat detail lokasi
 
-👤 Profil Pengguna
+Mengedit data lokasi
 
-Menampilkan profil:
-Nama: Nanda Amalia Putri
-Total lokasi yang ditambahkan
-
-🔧 Fitur CRUD Pada Lokasi
-➕ Tambah Lokasi Baru
-
-Input data meliputi:
-
-Foto tempat (optional)
-
-Nama lokasi
-
-Menu yang dibeli
-
-Harga
-
-Latitude & Longitude
-
-📄 Daftar Semua Lokasi
-
-Informasi yang ditampilkan:
-
-Nama
-
-Harga
-
-Koordinat
-
-Menu
-
-✏ Edit Lokasi
-🗑 Hapus Lokasi
-
-Semua data tersimpan di Firestore dan update secara real-time.
+Menghapus lokasi
 
 ⚙️ Teknologi yang Digunakan
 Komponen	Teknologi	Keterangan
-Frontend	React Native	Framework mobile multiplatform
-Backend & Auth	Firebase	Pengelola serverless BaaS
-Database	Firebase Firestore	Penyimpanan NoSQL berbasis dokumen
-Maps	ESRI Basemap	Menampilkan pin lokasi makanan
-Icon Assets	Flaticon	Sumber ikon UI aplikasi
-🚀 Instalasi & Cara Menjalankan
-
-Pastikan perangkat sudah terinstall:
+Front-End	React Native	Membuat UI aplikasi Android & iOS
+Back-End	Firebase	Platform serverless untuk autentikasi & penyimpanan data
+Database	Firebase Firestore	Database NoSQL yang cepat, realtime, dan scalable
+Maps	ESRI Basemap	Visualisasi lokasi dengan pin pada peta
+Ikon	Flaticon	Sumber icon UI
+🚀 Cara Menjalankan Aplikasi
+Persyaratan Sistem
 
 Node.js
 
-Android Studio atau emulator
-
 React Native CLI
 
-Clone Repository
-git clone https://github.com/USERNAME_ANDA/foodlok.git
+Android Studio (untuk emulator Android)
 
-Masuk ke folder project
+Git
+
+Instalasi
+git clone https://github.com/USERNAME-ANDA/foodlok.git
+
 cd foodlok
-
-Install dependencies
 npm install
 
-Jalankan Aplikasi Android
+Menjalankan Aplikasi
+
+Android:
+
 npx react-native run-android
 
-Jalankan Aplikasi iOS
+
+iOS:
+
 npx react-native run-ios
 
 🤝 Kontribusi
 
-Kami membuka kontribusi dari siapa pun.
+Kontribusi sangat terbuka dalam bentuk bug fixing, peningkatan fitur, atau pengembangan baru.
 
-Langkah kontribusi:
+Alur kontribusi:
 
-# Fork repository
-# Buat branch baru
-git checkout -b feature/nama-fitur
+Fork repository ini
 
-# Commit perubahan
-git commit -m "feat: menambahkan fitur baru"
+Buat branch baru
 
-# Push branch ke repository
-git push origin feature/nama-fitur
+Commit perubahan
 
+Push ke branch tersebut
 
-Buat pull request ✔
+Ajukan Pull Request
 
 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License
-Silakan lihat file LICENSE.md untuk detailnya.
+Proyek ini dirilis menggunakan lisensi MIT License.
 
-✉️ Kontak Pengembang
+✉️ Kontak
 
-👤 Nanda Amalia Putri
+Nanda Amalia Putri
+Pengembang Aplikasi Foodlok
 🔗 LinkedIn:
-https://www.linkedin.com/in/nanda-amalia-putri-92048432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+https://www.linkedin.com/in/nanda-amalia-putri-92048432b
