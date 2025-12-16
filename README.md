@@ -1,115 +1,106 @@
 # 🍴 Foodlok
 
-**Foodlok** adalah aplikasi seluler yang dirancang untuk membantu pengguna menemukan tempat makan paling **murah** di sekitar lokasi mereka dengan cepat dan mudah. Temukan makanan lezat tanpa menguras kantong Anda!
+## Nama Produk
 
+**Foodlok** – Aplikasi Pencarian Tempat Makan Murah Berbasis Lokasi
 
+---
+
+## Deskripsi Produk
+
+**Foodlok** adalah aplikasi seluler yang dirancang untuk membantu pengguna menemukan tempat makan paling **murah** di sekitar lokasi mereka dengan cepat dan mudah. Aplikasi ini ditujukan khusus untuk mahasiswa dan masyarakat umum yang ingin menikmati makanan lezat dengan harga terjangkau. Dengan memanfaatkan teknologi peta dan basis data *real-time*, Foodlok menyajikan informasi lokasi, kisaran harga, dan kategori tempat makan secara interaktif.
 
 ---
 
 ## ✨ Fitur Utama
 
-Foodlok hadir dengan serangkaian fitur yang memudahkan pengalaman mencari makan:
+Foodlok menyediakan beberapa fitur utama, antara lain:
 
-* **Cari Tempat Makan Murah:** Algoritma pencarian yang fokus pada rekomendasi makanan dengan harga terjangkau.
-* **Lokasi Terbaru:** Data tempat makan yang selalu diperbarui, memastikan Anda mendapatkan informasi terkini.
-* **Filter Kategori:** Saring hasil pencarian berdasarkan jenis masakan atau kategori makanan (misalnya, Jajanan, Warung, Kafe).
-* **Pencarian Cepat:** Opsi pencarian instan untuk menemukan tempat spesifik.
-* **Peta Interaktif:** Visualisasikan lokasi tempat makan di peta, lengkap dengan informasi harga dan jarak.
-* **Profil Pengguna:** Kelola data, riwayat pencarian, dan simpan tempat favorit Anda.
-* **CRUD Lokasi (Admin/Kontributor):** Fungsionalitas untuk **C**reate, **R**ead, **U**pdate, dan **D**elete data lokasi tempat makan.
-
----
-
-## 🛠️ Teknologi
-
-Aplikasi ini dibangun menggunakan teknologi modern untuk memastikan kinerja yang cepat dan pengalaman pengguna yang mulus.
-
-### **Frontend & Framework**
-
-| Teknologi | Deskripsi |
-| :--- | :--- |
-| **React Native** | Digunakan untuk membangun antarmuka pengguna yang *cross-platform* (Android & iOS) dari satu basis kode. |
-
-### **Backend & Database**
-
-| Teknologi | Deskripsi |
-| :--- | :--- |
-| **Firebase** | Menyediakan layanan *backend* tanpa server, termasuk otentikasi dan *hosting*. |
-| **Firestore** | Database NoSQL *cloud-hosted* yang digunakan untuk menyimpan data tempat makan, profil pengguna, dan informasi lokasi. |
-
-### **Geospasial**
-
-| Teknologi | Deskripsi |
-| :--- | :--- |
-| **ESRI Basemap** | Digunakan sebagai penyedia peta dasar untuk tampilan dan navigasi peta interaktif. |
+* **Pencarian Tempat Makan Murah** – Menampilkan rekomendasi tempat makan dengan harga terjangkau di sekitar pengguna.
+* **Peta Interaktif** – Menampilkan lokasi tempat makan pada peta lengkap dengan informasi jarak dan harga.
+* **Filter Kategori** – Menyaring tempat makan berdasarkan kategori (warung, jajanan, kafe, dll).
+* **Pencarian Cepat** – Memudahkan pengguna menemukan tempat makan tertentu.
+* **Profil Pengguna** – Menyimpan data pengguna, riwayat pencarian, dan tempat favorit.
+* **CRUD Data Lokasi** – Admin atau kontributor dapat menambah, mengubah, dan menghapus data tempat makan.
 
 ---
 
-## 🚀 Instalasi dan Penggunaan
+## 🛠️ Komponen Pembangun Produk
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan Foodlok di lingkungan pengembangan lokal Anda.
+### Frontend
 
-### **Prasyarat**
+* **React Native** – Framework utama untuk membangun aplikasi mobile Android dan iOS.
+* **Expo / React Native CLI** – Digunakan untuk proses pengembangan dan *testing* aplikasi.
 
-Pastikan Anda telah menginstal yang berikut:
+### Backend & Database
 
-* Node.js (versi terbaru direkomendasikan)
-* React Native CLI atau Expo CLI
-* JDK (Java Development Kit) untuk Android
-* Xcode untuk iOS (jika mengembangkan di macOS)
+* **Firebase Authentication** – Mengelola autentikasi pengguna.
+* **Firebase Firestore** – Menyimpan data tempat makan, pengguna, dan informasi lokasi.
 
-### **Langkah-langkah Instalasi**
+### Komponen Geospasial
 
-1.  **Kloning Repositori:**
-    ```bash
-    git clone [https://github.com/NandaAmaliaPutri/foodlok.git](https://github.com/NandaAmaliaPutri/foodlok.git)
-    cd foodlok
-    ```
+* **ESRI Basemap** – Digunakan sebagai peta dasar untuk menampilkan lokasi tempat makan secara interaktif.
 
-2.  **Instal Dependensi:**
-    ```bash
-    npm install
-    # atau
-    yarn install
-    ```
+---
 
-3.  **Konfigurasi Firebase:**
-    * Buat proyek baru di [Firebase Console](https://console.firebase.google.com/).
-    * Aktifkan **Firestore** dan siapkan aturan keamanan (security rules) yang sesuai.
-    * Tambahkan konfigurasi aplikasi **Android** dan **iOS** ke proyek Firebase Anda.
-    * Tambahkan file konfigurasi (misalnya `google-services.json` untuk Android dan `GoogleService-Info.plist` untuk iOS) ke direktori yang sesuai di proyek React Native Anda.
-    * **Catatan:** Pastikan juga Anda telah mengatur kunci API untuk ESRI Basemap jika diperlukan.
+## 📊 Sumber Data
 
-4.  **Jalankan Aplikasi:**
+Sumber data yang digunakan dalam aplikasi Foodlok meliputi:
 
-    * **Android:**
-        ```bash
-        npx react-native run-android
-        ```
+* **Data lokasi tempat makan** – Dikumpulkan secara manual oleh admin/kontributor.
+* **Data harga dan kategori makanan** – Diperoleh dari hasil observasi lapangan dan input pengguna.
+* **Data spasial (peta dasar)** – Bersumber dari layanan **ESRI Basemap**.
 
-    * **iOS:**
-        ```bash
-        # Jika menggunakan CocoaPods
-        cd ios && pod install && cd ..
-        npx react-native run-ios
-        ```
+---
+
+## 🖼️ Tangkapan Layar Aplikasi
+
+Berikut adalah tangkapan layar untuk setiap fitur utama aplikasi **Foodlok**:
+
+### 1. Halaman Beranda
+
+Menampilkan ringkasan aplikasi dan akses cepat ke fitur utama.
+
+![Halaman Beranda](screenshots/IMG-20251209-WA0004.jpg)
+
+### 2. Peta Interaktif & Filter Makanan
+
+Menampilkan lokasi tempat makan pada peta yang dapat difilter berdasarkan kategori makanan.
+
+![Peta Interaktif](screenshots/IMG-20251209-WA0010.jpg)
+
+### 3. Integrasi Google Maps
+
+Menampilkan navigasi dan lokasi tempat makan menggunakan Google Maps.
+
+![Integrasi Google Maps](screenshots/IMG-20251209-WA0009.jpg)
+
+### 4. Tambah Data Tempat Makan (Add Data)
+
+Fitur untuk menambahkan data lokasi tempat makan baru ke dalam sistem.
+
+![Add Data](screenshots/IMG-20251209-WA0010.jpg)
+
+### 5. Update & Delete Data Tempat Makan
+
+Fitur untuk memperbarui dan menghapus data tempat makan yang telah tersimpan.
+
+![Update dan Delete Data](screenshots/IMG-20251209-WA0005.jpg)
+
+### 6. Profil Pengguna
+
+Menampilkan informasi akun pengguna dan pengelolaan data profil.
+
+![Profil Pengguna](screenshots/IMG-20251209-WA0006.jpg)
 
 ---
 
 ## 🤝 Kontribusi
 
-Kontribusi disambut baik! Jika Anda memiliki ide atau ingin melaporkan *bug*, silakan:
-
-1.  *Fork* repositori ini.
-2.  Buat *branch* baru (`git checkout -b feature/amazing-feature`).
-3.  Lakukan *commit* perubahan Anda (`git commit -m 'feat: Add amazing feature'`).
-4.  *Push* ke *branch* (`git push origin feature/amazing-feature`).
-5.  Buka **Pull Request** baru.
+Kontribusi sangat terbuka untuk pengembangan Foodlok. Silakan lakukan *fork*, buat *branch* baru, dan ajukan **Pull Request**.
 
 ---
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah Lisensi **MIT** - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
-
----
+Proyek ini menggunakan lisensi **MIT**. Silakan lihat file `LICENSE` untuk informasi lebih lanjut.
