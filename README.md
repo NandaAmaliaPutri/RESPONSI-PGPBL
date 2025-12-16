@@ -61,37 +61,43 @@ Berikut adalah tangkapan layar untuk setiap fitur utama aplikasi **Foodlok**:
 
 Menampilkan ringkasan aplikasi dan akses cepat ke fitur utama.
 
-![Halaman Beranda](screenshots/IMG-20251209-WA0004.jpg)
+![Halaman Beranda] ![IMG-20251209-WA0004](https://github.com/user-attachments/assets/1ebef0b8-3ffd-4207-98ed-f72dafca6c7c)
+
 
 ### 2. Peta Interaktif & Filter Makanan
 
 Menampilkan lokasi tempat makan pada peta yang dapat difilter berdasarkan kategori makanan.
 
-![Peta Interaktif](screenshots/IMG-20251209-WA0010.jpg)
+![Peta Interaktif]![IMG-20251209-WA0010](https://github.com/user-attachments/assets/8625c3da-8ae0-49d0-94bb-5c510c6070e0)
+
 
 ### 3. Integrasi Google Maps
 
 Menampilkan navigasi dan lokasi tempat makan menggunakan Google Maps.
 
-![Integrasi Google Maps](screenshots/IMG-20251209-WA0009.jpg)
+![Integrasi Google Maps]![IMG-20251209-WA0009](https://github.com/user-attachments/assets/4bf310a2-fa03-44d3-9bcc-02e0c6578da8)
+
 
 ### 4. Tambah Data Tempat Makan (Add Data)
 
 Fitur untuk menambahkan data lokasi tempat makan baru ke dalam sistem.
 
-![Add Data](screenshots/IMG-20251209-WA0010.jpg)
+![Add Data]![IMG-20251209-WA0007](https://github.com/user-attachments/assets/1ff4c0ec-10db-4ffb-88a4-8f29309bdc9f)
+
 
 ### 5. Update & Delete Data Tempat Makan
 
 Fitur untuk memperbarui dan menghapus data tempat makan yang telah tersimpan.
 
-![Update dan Delete Data](screenshots/IMG-20251209-WA0005.jpg)
+![Update dan Delete Data]![IMG-20251209-WA0005](https://github.com/user-attachments/assets/2d388572-8696-4898-9922-551e4931a322)
+
 
 ### 6. Profil Pengguna
 
 Menampilkan informasi akun pengguna dan pengelolaan data profil.
 
-![Profil Pengguna](screenshots/IMG-20251209-WA0006.jpg)
+![Profil Pengguna]![IMG-20251209-WA0006](https://github.com/user-attachments/assets/8053045d-b935-4ce9-8afe-bfea3d8a06d5)
+
 
 ---
 
