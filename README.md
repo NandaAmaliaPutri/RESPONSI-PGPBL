@@ -61,7 +61,8 @@ Berikut adalah tangkapan layar untuk setiap fitur utama aplikasi **Foodlok**:
 
 Menampilkan ringkasan aplikasi dan akses cepat ke fitur utama.
 
-![Halaman Beranda] ![IMG-20251209-WA0004](https://github.com/user-attachments/assets/1ebef0b8-3ffd-4207-98ed-f72dafca6c7c)
+![Halaman Beranda] !<img src="https://github.com/user-attachments/assets/1ebef0b8-3ffd-4207-98ed-f72dafca6c7c" width="300"/>
+
 
 
 ### 2. Peta Interaktif & Filter Makanan
